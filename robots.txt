@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://what-is-gap-insurance.co.uk/sitemap.xml
