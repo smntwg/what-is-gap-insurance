@@ -6,6 +6,6 @@ window.GAP_AFFILIATE = {
   label: "Compare gap insurance quotes",
   href: "",
   note: "We are not linking to a comparison site yet. If you buy cover, use a provider on the FCA register and read the policy before you pay.",
-  disclosure: "",
+  disclosure: "This is an affiliate link. If you buy through it, we may earn a commission at no extra cost to you. It does not change what we write or which providers we mention.",
   emptyState: "neat"
 };
