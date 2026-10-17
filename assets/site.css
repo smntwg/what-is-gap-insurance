@@ -63,15 +63,16 @@ tr:last-child td{border-bottom:none}
 .affiliate-button:hover{background:var(--navy-soft);color:#fff}
 footer{background:var(--navy);color:rgba(255,255,255,0.6);padding:50px 5vw 40px;text-align:center;margin-top:20px}
 footer p{color:rgba(255,255,255,0.6)}
+footer p a{color:#e8c77a}
 .footer-logo{font-weight:800;font-size:20px;color:#fff;margin-bottom:12px;display:flex;align-items:center;justify-content:center;gap:10px}
 .footer-logo .logo-icon{width:28px;height:28px;font-size:12px}
 .footer-tagline{font-size:13px;color:rgba(255,255,255,0.5);margin-bottom:20px}
 .footer-links{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin:16px 0}
 .footer-links a{color:rgba(255,255,255,0.5);text-decoration:none;font-size:13px}
 .footer-links a:hover{color:#fff}
-.footer-disc{font-size:11px;opacity:0.4;margin-top:20px;max-width:640px;margin-left:auto;margin-right:auto;line-height:1.7}
+.footer-disc{font-size:11px;color:rgba(255,255,255,0.7);margin-top:20px;max-width:640px;margin-left:auto;margin-right:auto;line-height:1.7}
 .on-this-page{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin:8px 0 24px}
-.on-this-page p{margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:0.4px;text-transform:uppercase;color:var(--ink-muted)}
+.on-this-page p{margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:0.4px;text-transform:uppercase;color:var(--ink-soft)}
 .on-this-page ol{margin:0 0 0 1.1em}
 .on-this-page li{font-size:14px;margin-bottom:4px}
 .on-this-page a{text-decoration:none}
