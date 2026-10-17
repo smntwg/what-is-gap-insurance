@@ -113,7 +113,7 @@ function renderPage(page, bySlug) {
 <meta property="og:type" content="article"/>
 <meta property="og:url" content="${url}"/>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a1930'/><text x='50' y='72' font-family='system-ui,sans-serif' font-size='56' font-weight='800' fill='%23d4a84b' text-anchor='middle'>G</text></svg>"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400..800&family=Source+Serif+4:opsz,wght@8..60,600..800&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="/assets/site.css"/>
 <script type="application/ld+json">${jsonLd(article)}</script>
 <script type="application/ld+json">${jsonLd(faqPage)}</script>
