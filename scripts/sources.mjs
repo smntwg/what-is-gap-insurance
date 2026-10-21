@@ -60,3 +60,42 @@ export const S = {
     href: "https://register.fca.org.uk/"
   }
 };
+
+export const S2 = {
+  fcaLetter: {
+    label: "FCA: letter to GAP insurers, Concerns about the value of GAP insurance (20 September 2023), FOI11746 Annex B",
+    href: "https://www.fca.org.uk/publication/fca/foi11746-annex-b.pdf"
+  },
+  fcaFoiPremiums: {
+    label: "FCA: information on GAP insurance (November 2024), 2022 premiums and average policy length",
+    href: "https://www.fca.org.uk/freedom-information/information-gap-insurance-november-2024"
+  },
+  autoExpress: {
+    label: "Auto Express: Best GAP insurance 2026 (eight like-for-like online quotes), checked 21 October 2026",
+    href: "https://www.autoexpress.co.uk/product-group-tests/355158/best-gap-insurance"
+  },
+  rac: {
+    label: "RAC Drive: GAP insurance explained, checked 21 October 2026",
+    href: "https://www.rac.co.uk/drive/advice/insurance/what-is-gap-insurance/"
+  },
+  mse: {
+    label: "MoneySavingExpert: Gap insurance, do you need it? (updated 21 September 2026)",
+    href: "https://www.moneysavingexpert.com/insurance/car-insurance/gap-insurance/"
+  },
+  gapcoDealer: {
+    label: "GAPinsurance.co.uk blog: Buying a 76-plate car? Compare dealer GAP insurance (28 August 2026)",
+    href: "https://gapinsurance.co.uk/blog/2026/08/28/buying-a-76-plate-car-compare-dealer-gap-insurance/"
+  },
+  motoreasyCost: {
+    label: "MotorEasy: How much does GAP insurance cost? (23 January 2024)",
+    href: "https://www.motoreasy.com/magazine/677/How-much-does-Gap-Insurance-cost"
+  },
+  ipt: {
+    label: "GOV.UK: Insurance Premium Tax, standard and higher rates",
+    href: "https://www.gov.uk/guidance/insurance-premium-tax"
+  },
+  alaGap: {
+    label: "ALA Insurance Brokers: GAP insurance (product, eligibility and company details), checked 21 October 2026",
+    href: "https://www.ala.co.uk/gap-insurance"
+  }
+};

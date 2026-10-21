@@ -44,8 +44,8 @@ function renderPage(page, bySlug) {
     "@type": "Article",
     headline: page.h1,
     description: page.description,
-    datePublished: "2026-10-12",
-    dateModified: "2026-10-12",
+    datePublished: page.date || "2026-10-12",
+    dateModified: page.date || "2026-10-12",
     inLanguage: "en-GB",
     author: {
       "@type": "Organization",
@@ -82,9 +82,10 @@ function renderPage(page, bySlug) {
     }
     if (block.type === "table") {
       const head = block.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("");
-      const body = block.rows.map((row) => `<tr>${row.map((cell) => `<td>${cell}</td>`).join("")}</tr>`).join("");
-      return `<table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+      const body = block.rows.map((row) => `<tr>${row.map((cell, index) => `<td data-label="${escapeHtml(block.headers[index])}">${cell}</td>`).join("")}</tr>`).join("");
+      return `<table${block.stack ? ' class="stack"' : ""}><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
     }
+    if (block.type === "raw") return block.html;
     throw new Error(`Unknown block ${block.type} on ${page.slug}`);
   }).join("\n");
 
@@ -166,7 +167,7 @@ ${blocks}
 </footer>
 <script src="/data/affiliate.js"></script>
 <script src="/assets/affiliate.js"></script>
-</body>
+${(page.scripts || []).map((src) => `<script src="${src}" defer></script>\n`).join("")}</body>
 </html>
 `;
   assertClean(html, page.slug);
@@ -174,7 +175,7 @@ ${blocks}
 }
 
 const bySlug = new Map(pages.map((page) => [page.slug, page]));
-if (bySlug.size !== 18) throw new Error(`Expected 18 pages, got ${bySlug.size}`);
+if (bySlug.size !== 21) throw new Error(`Expected 21 pages, got ${bySlug.size}`);
 for (const page of pages) {
   if (!page.faqs || page.faqs.length < 4) throw new Error(`Need FAQs on ${page.slug}`);
   if (!page.blocks.some((block) => block.type === "example")) throw new Error(`Need an example on ${page.slug}`);

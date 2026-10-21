@@ -8,7 +8,7 @@ export const pages1 = [
     card: "When a shortfall is worth insuring, and when you can reasonably keep the risk yourself.",
     description: "GAP insurance is worth it when a write-off or theft would leave a shortfall you could not comfortably pay. See a worked UK example and the FCA's published value figures.",
     lede: "It is worth buying when a write-off or theft would leave a bill you could not comfortably pay. It is a poor buy when that shortfall is small, you already have the savings, or your motor policy already replaces the car. GAP insurance is optional. It does not replace comprehensive cover.",
-    related: ["gap-insurance-for-pcp", "gap-insurance-for-cash-buyers", "dealer-vs-online-gap-insurance", "what-gap-insurance-does-not-cover"],
+    related: ["how-much-is-gap-insurance", "gap-insurance-for-pcp", "gap-insurance-for-cash-buyers", "dealer-vs-online-gap-insurance", "what-gap-insurance-does-not-cover"],
     sources: [S.fcaPause, S.cp1429, S.abi, S.moneyPcp],
     faqs: [
       {
@@ -77,7 +77,7 @@ export const pages1 = [
     card: "The same shortfall can be insured in the showroom or later online. The sale, and often the price, is different.",
     description: "Dealer GAP is sold with the car. Online GAP is a separate purchase. The FCA found add-on prices could be twice standalone prices, and set a deferral so you can compare.",
     lede: "A dealer policy and an online policy can insure the same shortfall. They are not sold in the same way. Dealer GAP is an add-on at the vehicle sale, and FCA rules slow that sale down. Online GAP is a standalone purchase you make yourself. The FCA found that add-on prices could be twice the price of broadly equivalent standalone cover.",
-    related: ["fca-rules-on-dealer-gap-insurance", "gap-insurance-mis-selling", "can-i-buy-gap-insurance-after-buying-the-car", "is-gap-insurance-worth-it"],
+    related: ["how-much-is-gap-insurance", "best-gap-insurance-uk", "fca-rules-on-dealer-gap-insurance", "gap-insurance-mis-selling", "can-i-buy-gap-insurance-after-buying-the-car", "is-gap-insurance-worth-it"],
     sources: [S.cp1429, S.icobsGap, S.eval2018, S.fcaPause, S.register],
     faqs: [
       {
@@ -134,7 +134,7 @@ export const pages1 = [
     card: "Two are types of GAP. Agreed value is a motor policy figure. They do not all pay at once.",
     description: "Return to invoice and vehicle replacement are GAP options. Agreed value is set on the motor policy. One worked example shows how the payouts differ.",
     lede: "Return to invoice and vehicle replacement are types of GAP insurance. Agreed value is a way of setting the payout on your motor policy, not a GAP product. All three react to depreciation, but they use different figures, and the motor settlement is calculated first. You do not add the three payouts together.",
-    related: ["gap-insurance-vs-comprehensive-insurance", "gap-insurance-for-cash-buyers", "gap-insurance-for-pcp", "gap-insurance-when-your-car-is-stolen-or-written-off"],
+    related: ["best-gap-insurance-uk", "ala-gap-insurance", "gap-insurance-vs-comprehensive-insurance", "gap-insurance-for-cash-buyers", "gap-insurance-for-pcp", "gap-insurance-when-your-car-is-stolen-or-written-off"],
     sources: [S.abi, S.cab, S.moneyPcp],
     faqs: [
       {
