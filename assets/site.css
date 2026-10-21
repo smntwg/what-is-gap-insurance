@@ -33,7 +33,7 @@ li{font-size:16px;margin-bottom:8px;line-height:1.65}
 .example-label{font-size:12px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;color:#8a6a1f;margin-bottom:8px}
 .example-box p{color:var(--ink)}
 .example-box p:last-child{margin-bottom:0}
-.note{font-size:14px;color:var(--ink-muted);margin-top:8px}
+.note{font-size:14px;color:var(--ink-soft);margin-top:8px}
 table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;margin:16px 0 20px;border:1px solid var(--border)}
 th,td{text-align:left;padding:12px 14px;font-size:14px;vertical-align:top;border-bottom:1px solid var(--border)}
 th{background:var(--navy);color:#fff;font-weight:600}

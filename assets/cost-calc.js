@@ -41,7 +41,7 @@
         html += '<p class="calc-verdict">' + gbp(q) + " is " + verdict + "</p>";
         var fcaMonthly = FCA_AVG / FCA_MONTHS;
         var qMonthly = q / months;
-        html += '<p class="calc-verdict">For reference, the FCA\u2019s 2022 market average of ' + gbp0(FCA_AVG) + " over about " + FCA_MONTHS + " months is " + gbp(fcaMonthly) + " a month. Your quote is " + (qMonthly > fcaMonthly ? "more" : "less") + " than that per month.</p>";
+        html += '<p class="calc-verdict">For reference, the FCA\u2019s 2022 market average of ' + gbp0(FCA_AVG) + " over about " + FCA_MONTHS + " months is " + gbp(fcaMonthly) + " a month. Your quote is " + (Math.round(qMonthly * 100) === Math.round(fcaMonthly * 100) ? "the same as that per month" : (qMonthly > fcaMonthly ? "more than that per month" : "less than that per month")) + ".</p>";
       }
     }
     out.innerHTML = html;
