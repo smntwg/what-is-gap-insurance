@@ -8,7 +8,7 @@ export const pages2 = [
     card: "A used car can still leave a gap if you overpaid or you owe more than the insurer will pay.",
     description: "GAP insurance on a used car is worth measuring when finance or the price you paid sits above market value. Two worked UK examples show both sides.",
     lede: "GAP insurance on a used car is worth buying when you paid more than the car will be worth at a total loss, or you still owe more on finance than the insurer will pay. It is much less useful when you bought close to the going price and you own the car outright. Used cars usually fall in value more slowly than a brand new one, but a financed used car can still leave a shortfall in the first year or two.",
-    related: ["gap-insurance-for-cash-buyers", "can-i-buy-gap-insurance-after-buying-the-car", "is-gap-insurance-worth-it", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value"],
+    related: ["gap-insurance-for-cash-buyers", "can-i-buy-gap-insurance-after-buying-the-car", "is-gap-insurance-worth-it", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value", "gap-insurance-for-vans", "gap-insurance-for-motorbikes"],
     sources: [S.abi, S.govWriteoff, S.moneyEnd, S.cab],
     faqs: [
       {
