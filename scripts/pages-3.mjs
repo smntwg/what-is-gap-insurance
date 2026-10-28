@@ -76,7 +76,7 @@ export const pages3 = [
     card: "No finance means finance GAP has nothing to pay. Invoice or replacement cover is a separate question.",
     description: "Cash buyers do not have a finance shortfall. Return to invoice or vehicle replacement can still matter if market value would leave you short of the price you paid.",
     lede: "If you paid cash, there is no finance company to settle, so finance GAP has nothing to pay. Return to invoice or vehicle replacement can still matter if the insurer's market value would leave you short of the price you paid, or short of another new car. Many cash buyers of older cars reasonably decide the gap is too small to insure.",
-    related: ["is-gap-insurance-worth-it", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value", "gap-insurance-for-used-cars", "gap-insurance-vs-comprehensive-insurance"],
+    related: ["is-gap-insurance-worth-it", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value", "gap-insurance-for-used-cars", "gap-insurance-vs-comprehensive-insurance", "how-much-is-gap-insurance"],
     sources: [S.abi, S.cab, S.icobsGap, S.moneyPcp],
     faqs: [
       {

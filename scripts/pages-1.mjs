@@ -190,7 +190,7 @@ export const pages1 = [
     card: "On a PCP the settlement figure often still includes the balloon. That is the gap finance cover is aimed at.",
     description: "PCP GAP insurance covers the difference between a motor payout and the finance settlement, which usually includes the optional final balloon. Worked UK example included.",
     lede: "On a personal contract purchase, GAP insurance is there for the difference between the motor insurer's payout and the finance settlement figure. That figure is often higher than the monthly payments you have left, because the optional final balloon is still in the agreement. The guaranteed future value at the end of a healthy PCP is not the same thing as GAP.",
-    related: ["gap-insurance-for-hp", "gap-insurance-for-leased-cars", "is-gap-insurance-worth-it", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value"],
+    related: ["gap-insurance-for-hp", "gap-insurance-for-leased-cars", "is-gap-insurance-worth-it", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value", "how-to-make-a-gap-insurance-claim", "gap-insurance-for-motorbikes"],
     sources: [S.moneyPcp, S.moneyEnd, S.abi, S.fcaPause],
     faqs: [
       {
@@ -238,7 +238,7 @@ export const pages1 = [
     card: "HP has no balloon. The shortfall is usually smaller than PCP, and largest early in the agreement.",
     description: "Hire purchase GAP covers the gap between a motor payout and the HP settlement figure. See a worked example, and how the half rule differs from a write-off.",
     lede: "Hire purchase GAP covers the difference between the motor insurer's payout and what you still owe the HP lender. A standard HP agreement has no balloon, so the shortfall is often smaller than on a PCP for the same car. It is usually largest in the first year or two, while the balance is still high and the car has already fallen in value.",
-    related: ["gap-insurance-for-pcp", "gap-insurance-for-used-cars", "gap-insurance-for-cash-buyers", "how-to-make-a-gap-insurance-claim"],
+    related: ["gap-insurance-for-pcp", "gap-insurance-for-used-cars", "gap-insurance-for-cash-buyers", "how-to-make-a-gap-insurance-claim", "gap-insurance-for-vans", "gap-insurance-for-motorbikes"],
     sources: [S.moneyPcp, S.moneyEnd, S.cab, S.abi],
     faqs: [
       {

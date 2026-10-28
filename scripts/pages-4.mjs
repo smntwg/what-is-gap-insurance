@@ -20,7 +20,7 @@ export const pages4 = [
     card: "Published UK prices, the FCA's average premium, and a rough cost calculator.",
     description: "2026 UK online quotes put three years of GAP at about £107 to £205. RAC and MSE say £100 to £300; the FCA's 2022 average was £330. With a rough calculator.",
     lede: "Bought online, three years of GAP insurance on a mainstream car usually costs somewhere between about £100 and £300. In Auto Express's 2026 test, eight online quotes for the same three-year return-to-invoice cover on a nearly new Ford Puma ranged from £107.35 to £205.44. The FCA's figure for the whole market, including dealer sales, was higher: an average premium of £330 in 2022. Your price depends on the car, the claim limit, the length of cover and where you buy it.",
-    related: ["best-gap-insurance-uk", "dealer-vs-online-gap-insurance", "is-gap-insurance-worth-it", "ala-gap-insurance"],
+    related: ["best-gap-insurance-uk", "dealer-vs-online-gap-insurance", "is-gap-insurance-worth-it", "ala-gap-insurance", "gap-insurance-for-hp", "gap-insurance-for-leased-cars"],
     scripts: ["/assets/cost-calc.js"],
     sources: [S2.autoExpress, S2.rac, S2.mse, S2.fcaLetter, S2.fcaFoiPremiums, S2.gapcoDealer, S2.motoreasyCost, S2.alaGap, S.cp1429, S2.ipt],
     faqs: [
@@ -103,7 +103,7 @@ export const pages4 = [
     card: "What published tests found, and the checks that decide which policy is best for your car.",
     description: "There is no single best GAP policy. See the 2026 Auto Express test results as published and what to compare: cover type, claim limit, excess cover, eligibility.",
     lede: "The best GAP insurance is the cheapest policy that pays out on the figure you would actually be short, for a car the policy accepts. That depends on whether you need invoice, finance, lease or replacement cover, and on the claim limit. This page does not award its own ratings. It sets out what a published like-for-like test found, then the checks that decide which policy fits you.",
-    related: ["how-much-is-gap-insurance", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value", "ala-gap-insurance", "what-gap-insurance-does-not-cover"],
+    related: ["how-much-is-gap-insurance", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value", "ala-gap-insurance", "what-gap-insurance-does-not-cover", "gap-insurance-for-vans", "gap-insurance-for-motorbikes"],
     sources: [S2.autoExpress, S2.mse, S2.rac, S2.alaGap, S.fcaRestart, S.register, S.icobsGap],
     faqs: [
       { q: "Which is the best GAP insurance provider?", a: "There is no single answer, because policies pay out on different figures and accept different cars. In Auto Express's 2026 test of eight online providers, Moneymaxim was named Best Buy for the lowest quote and an easy site, Direct Gap was suggested for higher excess cover, and MotorEasy for paying monthly or bundling. Those are Auto Express's verdicts on one car and one cover type." },
