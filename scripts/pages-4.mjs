@@ -3,8 +3,8 @@ import { S, S2 } from "./sources.mjs";
 const aeRows = [
   ["Moneymaxim", "£107.35", "£500", "5.0"],
   ["Total Loss GAP", "£118.98", "£250", "4.0"],
-  ["Direct Gap", "£119.00", "£1,000", "4.5"],
-  ["Tidy Alloys", "£135.00", "£350", "3.5"],
+  ["Direct Gap", "around £119", "£1,000", "4.5"],
+  ["Tidy Alloys", "around £135", "£350", "3.5"],
   ["MotorEasy", "£137.12", "£500", "4.0"],
   ["GAPinsurance.co.uk", "£161.40", "£750", "2.5"],
   ["ALA", "£193.11", "£250", "2.0"],
@@ -15,6 +15,8 @@ export const pages4 = [
   {
     slug: "how-much-is-gap-insurance",
     date: "2026-10-21",
+    updated: "2026-11-18",
+    updatedLabel: "18 November 2026",
     title: "How much is GAP insurance? UK prices 2026",
     h1: "How much is GAP insurance?",
     card: "Published UK prices, the FCA's average premium, and a rough cost calculator.",
@@ -72,7 +74,7 @@ export const pages4 = [
       { type: "h2", text: "Why the same cover costs different amounts" },
       { type: "ul", items: [
         "<strong>The car and the claim limit.</strong> A dearer car can leave a bigger shortfall, so the maximum claim and the price go up.",
-        "<strong>The type of cover.</strong> Return to invoice, finance GAP, contract hire GAP and vehicle replacement pay out on different figures. <a href='/return-to-invoice-vs-vehicle-replacement-vs-agreed-value'>The cover types are compared here</a>.",
+        "<strong>The type of cover.</strong> Return to invoice, finance GAP, contract hire GAP and vehicle replacement pay out on different figures. The shortfall is not the same on <a href='/gap-insurance-for-pcp'>PCP</a>, <a href='/gap-insurance-for-hp'>hire purchase</a>, a <a href='/gap-insurance-for-leased-cars'>lease</a>, a <a href='/gap-insurance-for-used-cars'>used car</a> or a <a href='/gap-insurance-for-cash-buyers'>cash purchase</a>. <a href='/return-to-invoice-vs-vehicle-replacement-vs-agreed-value'>The cover types are compared here</a>.",
         "<strong>The length of the policy.</strong> The FCA says the average GAP policy runs around 36 months. Two to four years is common.",
         "<strong>Extras.</strong> Excess cover varied from £250 to £1,000 in the Auto Express test, and some providers add hire car contributions.",
         "<strong>Where you buy.</strong> The FCA found add-on GAP sold with a car could be <a href='https://www.fca.org.uk/publication/consultation/cp14-29.pdf'>twice as expensive as broadly equivalent standalone cover</a>. In 2023 it told GAP insurers that commission could be in excess of 70p for every £1 of premium.",
@@ -90,7 +92,7 @@ export const pages4 = [
         "Work out what you need covered: the invoice price, the finance settlement, the lease charges or a brand new replacement.",
         "Ask any dealer for the GAP price and documents in writing. The <a href='/fca-rules-on-dealer-gap-insurance'>FCA's deferral rules</a> mean it cannot complete the sale straight away.",
         "Get at least two standalone quotes for the same cover type, claim limit and term.",
-        "Compare the excess cover, eligibility limits and claim time limit, not just the price.",
+        "Compare the excess cover, eligibility limits and claim time limit, not just the price. <a href='/dealer-vs-online-gap-insurance'>Dealer and online prices</a> are often different, and <a href='/is-gap-insurance-worth-it'>whether GAP is worth it</a> depends on the shortfall you would actually face. If you already have the car, check <a href='/can-i-buy-gap-insurance-after-buying-the-car'>how long after purchase</a> that provider will still quote.",
         "Check the provider on the <a href='https://register.fca.org.uk/'>FCA register</a> and read the policy before you pay. You normally have <a href='/cancelling-gap-insurance-and-refunds'>14 days to cancel</a>."
       ]}
     ]
@@ -98,27 +100,29 @@ export const pages4 = [
   {
     slug: "best-gap-insurance-uk",
     date: "2026-10-21",
+    updated: "2026-11-18",
+    updatedLabel: "18 November 2026",
     title: "Best GAP insurance UK: how to compare policies",
     h1: "Best GAP insurance in the UK",
     card: "What published tests found, and the checks that decide which policy is best for your car.",
-    description: "There is no single best GAP policy. See the 2026 Auto Express test results as published and what to compare: cover type, claim limit, excess cover, eligibility.",
-    lede: "The best GAP insurance is the cheapest policy that pays out on the figure you would actually be short, for a car the policy accepts. That depends on whether you need invoice, finance, lease or replacement cover, and on the claim limit. This page does not award its own ratings. It sets out what a published like-for-like test found, then the checks that decide which policy fits you.",
+    description: "There is no single best or cheapest GAP policy. Compare cover type, claim limit and eligibility. Auto Express's 2026 test is one car, not a league table.",
+    lede: "The best GAP insurance is the policy that pays the shortfall you would actually face, on a car it accepts, at a price you have compared like for like. The cheapest premium is not automatically that policy. This page does not award its own ratings. It checks a published test against the article, then the comparisons that decide which quote fits.",
     related: ["how-much-is-gap-insurance", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value", "ala-gap-insurance", "what-gap-insurance-does-not-cover", "gap-insurance-for-vans", "gap-insurance-for-motorbikes"],
-    sources: [S2.autoExpress, S2.mse, S2.rac, S2.alaGap, S.fcaRestart, S.register, S.icobsGap],
+    sources: [S2.autoExpressNov, S2.alaBti, S2.alaBtiWording, S.cp1429, S.fcaRestart, S.register, S2.icobsGapCurrent],
     faqs: [
       { q: "Which is the best GAP insurance provider?", a: "There is no single answer, because policies pay out on different figures and accept different cars. In Auto Express's 2026 test of eight online providers, Moneymaxim was named Best Buy for the lowest quote and an easy site, Direct Gap was suggested for higher excess cover, and MotorEasy for paying monthly or bundling. Those are Auto Express's verdicts on one car and one cover type." },
       { q: "Is dealer GAP insurance ever the best option?", a: "It can be if the price and cover match or beat standalone quotes, but the evidence is that dealer add-on GAP has often cost more. Ask for the details in writing and compare before you agree." },
       { q: "What should I check before buying GAP insurance?", a: "The cover type, the maximum claim, the policy length, how much of your motor excess it pays, the age, mileage and value limits, the time limit for buying and for claiming, who underwrites it, and the cancellation terms." },
-      { q: "Does the cheapest GAP policy pay out less?", a: "Not necessarily, but it can if the claim limit is lower, the cover type is narrower or the excess cover is smaller. Compare like with like before treating the lowest price as the best deal." }
+      { q: "Does the cheapest GAP policy pay out less?", a: "Not necessarily, but it can if the claim limit is lower, the cover type is narrower or the excess cover is smaller. In Auto Express's 2026 test the lowest quote and the highest were for the same return-to-invoice brief, so price and cover were not the same thing. Compare like with like before treating the lowest price as the best deal. There is no official UK cheapest policy." }
     ],
     blocks: [
       { type: "h2", text: "What the 2026 Auto Express test found" },
       { type: "p", html: "<a href='https://www.autoexpress.co.uk/product-group-tests/355158/best-gap-insurance'>Auto Express</a> priced the same return-to-invoice cover from eight online providers: a nearly new Ford Puma bought on hire purchase, a £15,000 maximum claim, three years. It also judged how easy each site was, how clear the information was, and what extras came with the policy. The ratings below are Auto Express's own, out of five, reproduced as published. They are not ours." },
       { type: "table", stack: true, headers: ["Provider", "Three-year premium", "Excess cover", "Auto Express rating"], rows: aeRows.map((row) => [row[0], row[1], row[2], `${row[3]} stars`]) },
-      { type: "p", html: "Auto Express's verdict: Moneymaxim took its Best Buy, with the lowest quote and a simple site. For higher excess cover it suggested Direct Gap, and for drivers who want to pay monthly or bundle GAP with other products, MotorEasy. That is one test on one car. A different car, claim limit or cover type can change the order." },
+      { type: "p", html: "Auto Express wrote \"around\" for the Direct Gap and Tidy Alloys premiums. The other amounts are the figures it published. GAPInsure's £205.44 was the price in an email after a stated 20% discount on a £256.80 online quote. Its verdict: Moneymaxim took Best Buy, with the lowest quote and a simple site. For higher excess cover it suggested Direct Gap, and for drivers who want to pay monthly or bundle GAP with other products, MotorEasy. That is one test on one car. A different car, claim limit or cover type can change the order. This page re-read the article on 18 November 2026." },
       { type: "h2", text: "Start with the type of cover you need" },
       { type: "table", stack: true, headers: ["Your situation", "Cover that usually fits", "Why"], rows: [
-        ["Bought outright, new or nearly new", "Return to invoice", "Pays the difference between the motor insurer's market value and what you paid. Finance GAP has nothing to clear."],
+        ["Bought outright, new or nearly new", "Return to invoice", "Pays the difference between the motor insurer's market value and what you paid. Finance GAP has nothing to clear. See <a href='/gap-insurance-for-cash-buyers'>cash buyers</a> and <a href='/gap-insurance-for-used-cars'>used cars</a>."],
         ["PCP or hire purchase", "Finance GAP, or a combined invoice and finance policy", "The settlement figure on the agreement can be more than the car is worth. See <a href='/gap-insurance-for-pcp'>PCP</a> and <a href='/gap-insurance-for-hp'>HP</a>."],
         ["Contract hire or lease", "Contract hire GAP", "Covers what you would still owe the leasing company after a total loss. See <a href='/gap-insurance-for-leased-cars'>leased cars</a>."],
         ["Want the same new car again", "Vehicle replacement", "Pays towards a brand new equivalent at the price on the day of the claim. Usually the dearest type."]
@@ -127,7 +131,7 @@ export const pages4 = [
       { type: "ul", items: [
         "<strong>Maximum claim.</strong> The policy cannot pay more than its limit. Check it against the shortfall you could face, not an average.",
         "<strong>Excess cover.</strong> In the Auto Express test this ranged from £250 to £1,000.",
-        "<strong>Eligibility.</strong> Providers set limits on vehicle age, mileage, value and how long ago you bought the car. ALA, for example, says its Back to Invoice Plus cover is for cars up to 10 years old bought within the last 180 days.",
+        "<strong>Eligibility.</strong> Providers set limits on vehicle age, mileage, value and how long ago you bought the car. ALA's Back to Invoice Plus page, checked on 18 November 2026, says the vehicle must be less than 10 years old and owned for less than 180 days, or less than 365 days if new-car replacement applies while the car is under 12 months. That page also says there is no upper mileage limit. The AmTrust wording ALA publishes, dated 1 September 2026, says fewer than 100,000 miles. ALA says different scheme providers use different wordings, so use the one on the quote. The purchase windows are collected in <a href='/can-i-buy-gap-insurance-after-buying-the-car'>can I buy GAP after buying the car</a>.",
         "<strong>How the payout is calculated.</strong> Some policies pay the higher of the invoice price or the finance settlement; others pay only one. Read the claim calculation, not just the policy name.",
         "<strong>Claim time limits.</strong> How long you have after the total loss to make a GAP claim.",
         "<strong>Who underwrites it.</strong> The provider should be on the <a href='https://register.fca.org.uk/'>FCA register</a>, and the documents should name the insurer.",
@@ -137,22 +141,33 @@ export const pages4 = [
         "Tom has a car on PCP that cost £28,000, with a £24,000 settlement figure today. Policy A costs £140 and has a £15,000 maximum claim. Policy B costs £185 and has a £25,000 maximum claim.",
         "If the car were written off and the motor insurer paid £10,000, Tom would be £14,000 short on the finance and £18,000 short on the invoice price. Policy A could only ever pay £15,000. Policy B could cover the whole gap on an invoice-based claim. For Tom, the £45 difference buys real cover."
       ]},
-      { type: "h2", text: "Comparing quotes" },
-      { type: "p", html: "Once you know the cover type and claim limit you need, get at least two quotes for exactly that, then compare excess cover, eligibility and claim terms. The <a href='/how-much-is-gap-insurance'>GAP insurance cost guide</a> has the published price ranges and a rough calculator. If a dealer is offering GAP with the car, the <a href='/fca-rules-on-dealer-gap-insurance'>FCA rules</a> give you time to do this." }
+      { type: "h2", text: "How to choose and compare GAP insurance" },
+      { type: "p", html: "There is no official cheapest GAP insurance in the UK, and a comparison only means something when the policies insure the same shortfall. In the Auto Express test above, eight providers priced one return-to-invoice policy: a nearly new Ford Puma on hire purchase, a £15,000 claim limit, three years. The published premiums ran from £107.35 to £205.44. That is a real spread on one brief. It is not a league table for every car, and it is not a promise that Moneymaxim, or anyone else, is the cheapest quote you will get." },
+      { type: "p", html: "The FCA's competition work found that GAP sold with the car could be <a href='https://www.fca.org.uk/publication/consultation/cp14-29.pdf'>twice as expensive as broadly equivalent cover</a> bought separately. That is a reason to compare a dealer price with standalone quotes. It is not a reason to buy the lowest number without reading the claim limit. <a href='/is-gap-insurance-worth-it'>Whether the cover is worth it</a> depends on the shortfall you could not pay yourself. <a href='/dealer-vs-online-gap-insurance'>Dealer and online GAP</a> are the same job sold in different places." },
+      { type: "ol", items: [
+        "Name the figure you need insured: the invoice price, the finance settlement, the lease charge, or a replacement car. <a href='/return-to-invoice-vs-vehicle-replacement-vs-agreed-value'>The cover types</a> do not all pay at once.",
+        "Set the claim limit against that shortfall. A cheaper policy that stops at £15,000 does not beat a dearer one if your gap could be larger. The example above is the arithmetic.",
+        "Check age, mileage, vehicle value, and how long ago you bought or collected the car. Limits differ. <a href='/can-i-buy-gap-insurance-after-buying-the-car'>Buying after you have the car</a> sets out windows that named providers publish.",
+        "Compare excess cover, and read what is excluded. <a href='/what-gap-insurance-does-not-cover'>Repairs, refused motor claims and sums above the claim limit</a> are the usual gaps.",
+        "Get at least two quotes for the same cover type, claim limit and term. Published price ranges and a rough calculator are in <a href='/how-much-is-gap-insurance'>how much GAP insurance costs</a>.",
+        "Check the seller on the <a href='https://register.fca.org.uk/'>FCA register</a> and read the policy before you pay. If a dealer is selling GAP with the car, <a href='/fca-rules-on-dealer-gap-insurance'>ICOBS 6A.1</a> gives you time to do this."
+      ]}
     ]
   },
   {
     slug: "ala-gap-insurance",
     date: "2026-10-21",
+    updated: "2026-11-18",
+    updatedLabel: "18 November 2026",
     title: "ALA GAP insurance: policies, prices and test results",
     h1: "ALA GAP insurance",
     card: "Who ALA is, the GAP policies it sells, what it says about them, and what an independent price test found.",
     description: "ALA Insurance Brokers sells several types of GAP cover. What each covers, who is eligible, and how it priced in Auto Express's 2026 like-for-like test.",
     lede: "ALA is a UK insurance broker that sells GAP insurance online, alongside car warranties and other motor add-ons. It offers invoice, vehicle replacement, contract hire, agreed value and hire and reward GAP policies. In Auto Express's 2026 test of eight online providers, its quote for the test car was £193.11, the second highest of the eight. This page explains what ALA sells and what has been published about it. It is not an endorsement.",
     related: ["best-gap-insurance-uk", "how-much-is-gap-insurance", "return-to-invoice-vs-vehicle-replacement-vs-agreed-value", "gap-insurance-for-leased-cars"],
-    sources: [S2.alaGap, S2.autoExpress, S.register, S.icobsCancel],
+    sources: [S2.alaGap, S2.alaBti, S2.alaBtiWording, S2.autoExpressNov, S.register, S.icobsCancel],
     faqs: [
-      { q: "Who is ALA GAP insurance with?", a: "ALA is the broker. Its website says its GAP policies are underwritten by Financial & Legal and Hiscox. Your policy documents will name the insurer for your policy." },
+      { q: "Who is ALA GAP insurance with?", a: "ALA is the broker. Its Back to Invoice Plus page, checked on 18 November 2026, says the policies are underwritten by AmTrust, Hiscox and Financial & Legal, and that different scheme providers use different wordings. Your policy documents name the insurer for your policy." },
       { q: "Is ALA regulated by the FCA?", a: "ALA's website says ALA IB Limited, trading as ALA Insurance Brokers, is authorised and regulated by the Financial Conduct Authority, firm reference 571109. You can check that number on the FCA register." },
       { q: "How much does ALA GAP insurance cost?", a: "It depends on the car and the cover. ALA's own guide gives a typical range of around £100 to £300 for multi-year cover. In Auto Express's 2026 like-for-like test, ALA quoted £193.11 for three years of return-to-invoice cover on a nearly new Ford Puma, or £218.10 over ten months." },
       { q: "Can I get ALA GAP for a car I bought months ago?", a: "Possibly. ALA says its Back to Invoice Plus policy is for cars bought within the last 180 days, or 365 days where new car replacement applies for the first year, and its contract hire cover is for vehicles delivered within the last 365 days. Check the current eligibility when you quote." }
@@ -160,9 +175,9 @@ export const pages4 = [
     blocks: [
       { type: "h2", text: "Who ALA is" },
       { type: "p", html: "According to the footer of <a href='https://www.ala.co.uk/gap-insurance'>its website</a>, ALA is ALA IB Limited, trading as ALA Insurance Brokers, registered in England (company number 06833207) with a registered office in Malton, North Yorkshire. It states that it is authorised and regulated by the Financial Conduct Authority with firm reference number 571109. You can confirm a firm's details on the <a href='https://register.fca.org.uk/'>FCA register</a> before you buy." },
-      { type: "p", html: "ALA is a broker: it arranges the policy, and an insurer carries the risk. ALA says its GAP policies are underwritten by Financial & Legal and Hiscox." },
+      { type: "p", html: "ALA is a broker: it arranges the policy, and an insurer carries the risk. Its <a href='https://www.ala.co.uk/gap-insurance/back-to-invoice-plus'>Back to Invoice Plus page</a>, checked on 18 November 2026, says the policies are underwritten by AmTrust, Hiscox and Financial & Legal, and that different scheme providers use different wordings. The documents on your quote name the insurer." },
       { type: "h2", text: "The GAP policies ALA sells" },
-      { type: "p", html: "These descriptions and limits are as ALA states them on its GAP page, checked on 21 October 2026. Limits change, so check them on your own quote." },
+      { type: "p", html: "These descriptions and limits are as ALA states them on its GAP page, checked on 21 October 2026, except where a later page says something tighter. Limits change, so check them on your own quote. If you are buying after you already have the car, the dated windows are in <a href='/can-i-buy-gap-insurance-after-buying-the-car'>can I buy GAP insurance after buying the car</a>." },
       { type: "table", stack: true, headers: ["Policy", "What ALA says it pays", "Eligibility ALA states"], rows: [
         ["Back to Invoice Plus", "The difference between the market value settlement and the higher of the original invoice price or the outstanding finance", "New or used cars up to 10 years old, owned outright or on finance, bought within the last 180 days (365 where new car replacement applies in the first 12 months)"],
         ["Vehicle Replacement Plus", "The difference between the motor settlement and the higher of a new replacement of similar make, model and age, or the outstanding finance", "New and used vehicles up to 7 years old with fewer than 80,000 miles, delivered within 90 days of the policy start"],
@@ -170,6 +185,7 @@ export const pages4 = [
         ["Agreed Value GAP", "The difference between the market value settlement at claim and the retail value when you bought the GAP policy", "No age or mileage limit, as long as the vehicle's value is listed in Glass's Guide; includes cars bought privately"],
         ["Hire and Reward GAP", "The shortfall between what you paid and the motor insurer's total loss payout", "Taxis, private hire, standard delivery and driving instructor vehicles, up to £50,000"]
       ]},
+      { type: "p", html: "The Back to Invoice Plus page says there is no upper mileage limit on that product. The <a href='https://www.ala.co.uk/wp-content/uploads/2026/09/ALA-BTI-Policy-Wording-01.09.pdf'>AmTrust Back to Invoice wording dated 1 September 2026</a> says the vehicle must have fewer than 100,000 miles when you buy the policy. Use the wording attached to the quote. A lease is a different product: see <a href='/gap-insurance-for-leased-cars'>GAP insurance for leased cars</a>. A car bought for cash, or a used car close to market value, may not have a shortfall worth insuring: see <a href='/gap-insurance-for-cash-buyers'>cash buyers</a> and <a href='/gap-insurance-for-used-cars'>used cars</a>." },
       { type: "h2", text: "What ALA says about its cover" },
       { type: "p", html: "These are ALA's own claims, reported so you know what to check in the policy documents. We have not tested them." },
       { type: "ul", items: [
@@ -192,7 +208,7 @@ export const pages4 = [
       { type: "ol", items: [
         "Pick the cover type that matches your finance or ownership: <a href='/return-to-invoice-vs-vehicle-replacement-vs-agreed-value'>the cover types are compared here</a>.",
         "Get at least one other quote for the same cover type, claim limit and term.",
-        "Check the eligibility limits and the claim time limit in the policy wording.",
+        "Check the eligibility limits and the claim time limit in the policy wording. <a href='/what-gap-insurance-does-not-cover'>What GAP does not cover</a> is the usual list of exclusions to look for.",
         "Confirm the firm on the FCA register and keep your documents. You normally have <a href='/cancelling-gap-insurance-and-refunds'>14 days to cancel</a>."
       ]}
     ]

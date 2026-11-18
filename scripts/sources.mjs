@@ -97,5 +97,33 @@ export const S2 = {
   alaGap: {
     label: "ALA Insurance Brokers: GAP insurance (product, eligibility and company details), checked 21 October 2026",
     href: "https://www.ala.co.uk/gap-insurance"
+  },
+  alaBti: {
+    label: "ALA Insurance Brokers: Back to Invoice Plus (eligibility and comparison with vehicle replacement), checked 18 November 2026",
+    href: "https://www.ala.co.uk/gap-insurance/back-to-invoice-plus"
+  },
+  alaBtiWording: {
+    label: "ALA / AmTrust: Back to Invoice GAP policy wording (1 September 2026)",
+    href: "https://www.ala.co.uk/wp-content/uploads/2026/09/ALA-BTI-Policy-Wording-01.09.pdf"
+  },
+  alaCover: {
+    label: "ALA Insurance Brokers: what GAP insurance covers, including purchase windows by policy type, checked 18 November 2026",
+    href: "https://www.ala.co.uk/insights/gap-insights/about-gap-general-info/gap-coverage/what-gap-insurance-covers"
+  },
+  motoreasyRti: {
+    label: "MotorEasy: Return to Invoice GAP insurance (eligibility, purchase window and claim documents), page dated 11 November 2026, checked 18 November 2026",
+    href: "https://www.motoreasy.com/gap-insurance/return-to-invoice"
+  },
+  click4gap: {
+    label: "Click4Gap: GAP insurance homepage (180-day purchase window and vehicle eligibility), checked 18 November 2026",
+    href: "https://www.click4gap.co.uk/"
+  },
+  icobsGapCurrent: {
+    label: "FCA Handbook: ICOBS 6A GAP contracts, as displayed 18 November 2026",
+    href: "https://handbook.fca.org.uk/handbook/icobs6a"
+  },
+  autoExpressNov: {
+    label: "Auto Express: Best GAP insurance 2026 (eight like-for-like online quotes), checked 18 November 2026",
+    href: "https://www.autoexpress.co.uk/product-group-tests/355158/best-gap-insurance"
   }
 };
