@@ -45,7 +45,7 @@ function renderPage(page, bySlug) {
     headline: page.h1,
     description: page.description,
     datePublished: page.date || "2026-10-12",
-    dateModified: page.date || "2026-10-12",
+    dateModified: page.updated || page.date || "2026-10-12",
     inLanguage: "en-GB",
     author: {
       "@type": "Organization",
@@ -139,7 +139,7 @@ function renderPage(page, bySlug) {
   </div>
 </header>
 <div class="page-wrap">
-<p class="lede">${page.lede}</p>
+${page.quickAnswer ? `<div class="quick-answer"><p class="quick-answer-label">Quick answer</p><p>${page.quickAnswer}</p></div>\n` : ""}${page.updatedLabel ? `<p class="updated">Updated ${escapeHtml(page.updatedLabel)}</p>\n` : ""}<p class="lede">${page.lede}</p>
 ${toc}
 <aside class="affiliate-cta" data-affiliate hidden></aside>
 ${blocks}

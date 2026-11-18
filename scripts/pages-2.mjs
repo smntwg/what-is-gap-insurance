@@ -1,4 +1,4 @@
-import { S } from "./sources.mjs";
+import { S, S2 } from "./sources.mjs";
 
 export const pages2 = [
   {
@@ -50,56 +50,73 @@ export const pages2 = [
   },
   {
     slug: "can-i-buy-gap-insurance-after-buying-the-car",
-    title: "Can I buy GAP insurance after buying the car?",
+    title: "Can I buy GAP insurance after buying the car? | UK time limits",
     h1: "Can I buy GAP insurance after buying the car?",
     card: "Usually yes, inside that provider's time limit, and only before a loss. There is no single legal deadline.",
-    description: "You can often buy GAP insurance after you take the car, inside the provider's own time limit. The FCA deferral slows a dealer sale. It is not a deadline to buy elsewhere.",
-    lede: "Yes. You can usually buy GAP insurance after you have taken the car, but only inside the time limit set by that provider, and only before a loss. There is no UK law that says you must buy it on the day, and there is no single number of days that every provider uses. The FCA deferral slows a dealer sale down. It is not a deadline to buy from someone else.",
-    related: ["dealer-vs-online-gap-insurance", "fca-rules-on-dealer-gap-insurance", "how-to-make-a-gap-insurance-claim", "cancelling-gap-insurance-and-refunds"],
-    sources: [S.icobsGap, S.cp1429, S.eval2018, S.register],
+    description: "Yes, often, before a loss and inside the provider's window. Published limits from ALA, MotorEasy and Click4Gap, plus the FCA two-clear-day rule for a dealer sale.",
+    updated: "2026-11-18",
+    updatedLabel: "18 November 2026",
+    quickAnswer: "Yes. You can usually buy standalone GAP insurance after you have the car, but only before a loss, and only inside the time limit that provider publishes. There is no single UK legal deadline. On pages checked on 18 November 2026, <a href='https://www.ala.co.uk/gap-insurance/back-to-invoice-plus'>ALA's Back to Invoice Plus</a> cover is for vehicles owned for less than 180 days (365 days if your motor insurer's new-car replacement applies while the car is under 12 months), <a href='https://www.motoreasy.com/gap-insurance/return-to-invoice'>MotorEasy's return to invoice</a> cover is for a dealer purchase within the last six months, and <a href='https://www.click4gap.co.uk/'>Click4Gap</a> says cover is for a vehicle bought within the last 180 days. A dealer who sells GAP with the car is under a different rule: <a href='https://handbook.fca.org.uk/handbook/icobs6a'>ICOBS 6A.1</a> stops that firm concluding its sale until two clear days after it gave you set information, unless you start the purchase yourself the next day.",
+    lede: "The windows below are copied from named UK providers' own pages. They are not a legal maximum, and another provider can set a shorter or longer one. Read the wording on the quote you are offered.",
+    related: ["fca-rules-on-dealer-gap-insurance", "dealer-vs-online-gap-insurance", "gap-insurance-for-used-cars", "gap-insurance-for-cash-buyers", "what-gap-insurance-does-not-cover", "cancelling-gap-insurance-and-refunds"],
+    sources: [S2.icobsGapCurrent, S.eval2018, S2.alaBti, S2.alaBtiWording, S2.alaCover, S2.motoreasyRti, S2.click4gap, S.register],
     faqs: [
       {
-        q: "Will my finance be cancelled if I do not buy the dealer's GAP?",
-        a: "It should not. GAP sold with a car has to be described as optional or compulsory. If it is a condition of the finance, that should be in the credit agreement, not only in a sentence at the desk. Ask for the premium as its own figure either way."
+        q: "Can I buy GAP insurance after buying the car?",
+        a: "Yes, if it is before a loss and inside the limit that provider publishes. Checked on 18 November 2026: ALA's Back to Invoice Plus page allows less than 180 days of ownership, or less than 365 days if new-car replacement applies while the car is under 12 months. MotorEasy's return to invoice page allows a dealer purchase within the last six months. Click4Gap's homepage allows a purchase within the last 180 days. There is no single legal number of days."
       },
       {
-        q: "Can I add GAP after a write-off has already been declared?",
-        a: "No. Policies are written on the basis that the vehicle has not already been written off, stolen or damaged in the incident you want covered. Buying after a loss is not a claim."
+        q: "Does the FCA two-clear-day rule stop me buying GAP from someone else?",
+        a: "No. ICOBS 6A.1 applies when a firm sells a GAP contract in connection with the sale of a vehicle by that firm, or by a connected person. That firm cannot conclude its own GAP sale until at least two clear days after it gave you the prescribed information, unless you start the purchase the next day, consent to the shorter wait, and confirm you understand the usual restriction. A different provider you contact yourself is a separate sale."
       },
       {
-        q: "Does the cooling-off period let me buy, claim and cancel?",
-        a: "No. A cancellation right and a claim for a known loss are different things. Insurers will refuse a claim for an incident that happened before the policy started, and a cancellation does not create cover for that incident."
+        q: "What if I have missed the return to invoice window?",
+        a: "You may still be offered a different type of policy. ALA's cover guide says agreed value GAP can be bought at any time, including for a private purchase or after other time limits have passed. MotorEasy says return to value is for a private purchase, or a dealer purchase more than six months ago. Those policies top up towards a value at the start of the GAP cover, not the original invoice. Read that wording before you buy."
       },
       {
-        q: "What documents will a later purchase need?",
-        a: "Expect the purchase invoice or hire agreement, proof of the vehicle such as the V5C, the date you took delivery, and details of a comprehensive motor policy. A provider can also ask about mileage and any existing damage."
+        q: "Can I buy GAP after the car has already been written off or damaged?",
+        a: "No. Cover is not backdated to a loss you already know about. MotorEasy's return to invoice page excludes incidents before the policy start date. A cooling-off cancellation does not create cover for an incident that happened before the policy started."
       }
     ],
     blocks: [
-      { type: "h2", text: "The dealer wait is not your deadline" },
-      { type: "p", html: "If a firm sells GAP in connection with the vehicle, <a href='https://www.handbook.fca.org.uk/handbook/ICOBS/6A/1.html'>ICOBS 6A.1</a> says it cannot conclude that contract until at least two clear days after it gave you the prescribed information, unless you yourself ask to go ahead from the next day and confirm you understand the usual restriction. The FCA introduced that pause, from 1 September 2015, so you could decide whether you needed the product and shop elsewhere. Its <a href='https://www.fca.org.uk/publication/corporate/gap-insurance-intervention-evaluation-paper.pdf'>2018 evaluation</a> found that some people, given the time, decided not to buy at all." },
-      { type: "p", html: "A standalone insurer you contact the following week is a different sale. The two-clear-day rule is not a ban on that insurer offering you a policy, and it is not a promise that they will. Their own acceptance rules apply. The detail of the dealer rule is in the <a href='/fca-rules-on-dealer-gap-insurance'>FCA rules guide</a>, and the price reason for using the pause is in <a href='/dealer-vs-online-gap-insurance'>dealer vs online</a>." },
-      { type: "h2", text: "Each provider sets its own window" },
-      { type: "p", html: "Some providers will quote only if you bought the car within the last few weeks. Others will still quote a few months after delivery. You will see numbers such as 30, 90 or 180 days in individual policy conditions. None of those is a legal limit, and this site is not going to pretend there is a standard window. Read the assumption on the quote. If the car is already outside it, another provider may still quote, or nobody will." },
-      { type: "p", html: "You will also be asked to confirm that the car has not already been in an incident you might claim for. Cover is not backdated. That is ordinary insurance practice, not a special GAP penalty." },
+      { type: "h2", text: "Published time windows" },
+      { type: "p", html: "These are the purchase windows and eligibility limits written on the provider pages linked in the table, read on 18 November 2026. A policy wording can be tighter than the marketing page. ALA says its Back to Invoice Plus policies are underwritten by AmTrust, Hiscox and Financial & Legal, and that different scheme providers use different wordings, so the document on your quote is the one that counts." },
+      { type: "table", stack: true, headers: ["Provider and cover", "Purchase window", "Age, mileage and price", "Other limits they publish"], rows: [
+        ["<a href='https://www.ala.co.uk/gap-insurance/back-to-invoice-plus'>ALA Back to Invoice Plus</a>", "Less than 180 days of ownership, or less than 365 days if new-car replacement applies while the car is under 12 months", "Less than 10 years old. The product page says there is no upper mileage limit. The AmTrust wording dated 1 September 2026 says fewer than 100,000 miles, and a purchase price of at least £5,000 and under £125,000 (under £75,000 for a light commercial vehicle)", "From a VAT-registered dealer, owned outright or on HP or PCP. That page says motorcycles are not covered. Comprehensive motor insurance is required on the AmTrust wording."],
+        ["<a href='https://www.ala.co.uk/gap-insurance/back-to-invoice-plus'>ALA Vehicle Replacement Plus</a>", "Purchased within the last 90 days", "Less than 7 years old, with fewer than 80,000 miles", "Stated on the same Back to Invoice Plus page. Invoice price up to £125,000."],
+        ["<a href='https://www.ala.co.uk/insights/gap-insights/about-gap-general-info/gap-coverage/what-gap-insurance-covers'>ALA contract hire and agreed value</a>", "Contract hire within 365 days. Agreed value at any time, including a private purchase or after the other windows", "That short answer does not state an age or mileage limit", "From ALA's own guide to what its GAP policies cover. Agreed value uses a retail value when the GAP policy starts, not the original invoice."],
+        ["<a href='https://www.motoreasy.com/gap-insurance/return-to-invoice'>MotorEasy Return to Invoice</a>", "Within the last 6 months", "Under 8 years, fewer than 100,000 miles, insured value £4,000 to £75,000", "From a VAT-registered dealer. Cash, HP or PCP. Fully comprehensive cover, as the policyholder or a named driver. Not for a lease or contract hire."],
+        ["<a href='https://www.motoreasy.com/gap-insurance/return-to-invoice'>MotorEasy Return to Value</a>", "More than 6 months after a dealer purchase, or any time after a private purchase", "Under 8 years, fewer than 100,000 miles, insured value £4,000 to £75,000", "From the comparison table on MotorEasy's return to invoice page. It tops up to the car's value when the GAP policy starts."],
+        ["<a href='https://www.motoreasy.com/gap-insurance/return-to-invoice'>MotorEasy lease GAP</a>", "Up to 6 months after the lease starts", "Under 8 years, under 80,000 miles, vehicle value up to £125,000", "Same MotorEasy comparison table. Not for PCP or HP. See <a href='/gap-insurance-for-leased-cars'>GAP insurance for leased cars</a>."],
+        ["<a href='https://www.click4gap.co.uk/'>Click4Gap</a>", "Within 180 days of purchase", "Under 8 years and under 80,000 miles when the policy starts. No age or mileage limit once cover has started. Vehicles under £5,000 or over £150,000 are listed as ineligible", "Click4Gap's homepage also lists cars and motorbikes. Lease and contract hire are not eligible."]
+      ]},
+      { type: "p", html: "A used car, a <a href='/gap-insurance-for-cash-buyers'>cash purchase</a> and a private sale are not the same case. Invoice-style cover from these providers is aimed at a dealer purchase inside the window. <a href='/gap-insurance-for-used-cars'>Used cars</a>, <a href='/gap-insurance-for-pcp'>PCP</a>, <a href='/gap-insurance-for-hp'>hire purchase</a>, <a href='/gap-insurance-for-vans'>vans</a> and <a href='/gap-insurance-for-motorbikes'>motorbikes</a> each add their own eligibility questions. <a href='/what-gap-insurance-does-not-cover'>What GAP insurance does not cover</a> is the list to read before you treat a quote as a promise." },
+      { type: "h2", text: "What you need" },
+      { type: "ul", items: [
+        "<strong>The date you took delivery.</strong> The windows above run from the purchase or delivery, which can differ from the day you ordered the car.",
+        "<strong>The purchase invoice.</strong> ALA's AmTrust wording says you will be asked for the purchase invoice if you claim. MotorEasy's claim steps ask for the original purchase invoice or sales receipt.",
+        "<strong>The finance agreement, if there is one.</strong> The AmTrust wording requires any finance agreement to be in your name, and the amount originally financed to be no more than the purchase price on the invoice.",
+        "<strong>Comprehensive motor insurance.</strong> Both that AmTrust wording and MotorEasy require a comprehensive policy. On those wordings, third party cover is not enough.",
+        "<strong>The V5C, and an MOT if the car needs one.</strong> MotorEasy asks for the V5C logbook when you claim, plus a current MOT certificate if one is required. Have them ready for a quote as well.",
+        "<strong>Age, mileage and existing damage.</strong> Check them against the table. MotorEasy excludes incidents before the policy start date, so a scrape or write-off that has already happened is not something a new policy will pick up."
+      ]},
+      { type: "p", html: "If you buy and then change your mind, cancellation is a separate step. The cooling-off rules are in <a href='/cancelling-gap-insurance-and-refunds'>cancelling GAP insurance and refunds</a>. How a later claim is put together is in <a href='/how-to-make-a-gap-insurance-claim'>how to make a GAP insurance claim</a>." },
+      { type: "h2", text: "The dealer two-clear-day rule" },
+      { type: "p", html: "<a href='https://handbook.fca.org.uk/handbook/icobs6a'>ICOBS 6A.1</a> applies to a firm that sells a GAP contract in connection with the sale of a vehicle by that firm, or by a connected person. A connected person includes an introducer or appointed representative, or a firm with a relevant business relationship. The handbook says there is a sufficient connection if the GAP contract is sold with other goods and services, for example a credit agreement." },
+      { type: "p", html: "Before that sale is concluded, the firm must give you, in a durable medium: the total premium separate from other prices; the significant features, benefits, exclusions and limitations; that GAP contracts are sold by other distributors; the policy duration; whether the contract is optional or compulsory; when the firm can conclude it; and the date that information was provided. The information has to be drawn to your attention." },
+      { type: "p", html: "The firm then cannot conclude the contract until at least two clear days have passed, unless you initiate the conclusion the day after, consent to the shorter wait, and confirm that you understand the usual restriction. A worked calendar for that count is in the <a href='/fca-rules-on-dealer-gap-insurance'>FCA rules guide</a>. The FCA's <a href='https://www.fca.org.uk/publication/corporate/gap-insurance-intervention-evaluation-paper.pdf'>2018 evaluation</a> found that some people, given the time, decided not to buy at all. The price reason for using the pause is in <a href='/dealer-vs-online-gap-insurance'>dealer vs online GAP insurance</a>." },
+      { type: "p", html: "That rule does not set how long a standalone provider will keep quoting. It does require the firm selling GAP with the vehicle to say whether that GAP contract is optional or compulsory, and to show the premium as its own figure." },
+      { type: "h2", text: "If the invoice window has closed" },
+      { type: "p", html: "Missing a 90-day, 180-day or six-month window does not always mean no policy exists. ALA's cover guide says agreed value can be bought at any time. MotorEasy offers return to value after six months, or from the day of a private purchase. Both are based on a value when the GAP policy starts, so they do not put you back to the original invoice. <a href='/return-to-invoice-vs-vehicle-replacement-vs-agreed-value'>Return to invoice, vehicle replacement and agreed value</a> shows the difference on one set of numbers." },
       { type: "h2", text: "Two timings" },
       {
         type: "example",
         title: "A purchase nine days later, and a request 14 months later",
         paragraphs: [
-          "James collects a car in Cardiff on 2 March. The dealer gives him the GAP information that day and offers to add £540 to the invoice. He says no. On 11 March he buys a standalone policy with a £20,000 claim limit for £250. Both prices are an illustration, not a price survey. The sequence is a normal use of the deferral: he heard the offer, he waited, he bought elsewhere.",
-          "Ruth bought her car 14 months ago. After a car-park scrape she asks for GAP, hoping to cover a future write-off and, quietly, the scratch. The scratch is already outside any new policy. Many providers will also decline because their purchase window closed months ago. She can ask. She cannot assume either that the window is still open or that the scrape becomes a claim."
+          "James collects a car in Cardiff on 2 March. The dealer gives him the GAP information that day and offers to add £540 to the invoice. He says no. On 11 March he buys a standalone policy with a £20,000 claim limit for £250. Both prices are an illustration, not a price survey. Nine days is inside the windows ALA, MotorEasy and Click4Gap publish for an invoice-style policy. The sequence is a normal use of the deferral: he heard the offer, he waited, he bought elsewhere.",
+          "Ruth bought her car 14 months ago. After a car-park scrape she asks for GAP, hoping to cover a future write-off and the scratch. The scratch is already outside a new policy: MotorEasy excludes incidents before the start date. Fourteen months is also outside the invoice windows in the table. She could still ask about agreed value or return to value, which those providers say can start later, but neither product turns the existing scratch into a claim."
         ]
-      },
-      { type: "h2", text: "What to have ready" },
-      { type: "ul", items: [
-        "The date you took delivery, which may differ from the date you ordered the car.",
-        "The invoice or hire agreement, and whether any extras were included in the price you want insured.",
-        "A comprehensive motor policy in force. GAP providers commonly refuse to start cover if you only have third party.",
-        "The finance or lease settlement basis, so you buy the right type rather than the first name you recognise.",
-        "Honesty about modifications, a previous write-off category, and existing damage. A wrong answer here is a claims problem later, not a shortcut."
-      ]},
-      { type: "p", html: "If you buy and then change your mind, the cancellation rules are separate. They are covered in <a href='/cancelling-gap-insurance-and-refunds'>cancelling GAP insurance and refunds</a>." }
+      }
     ]
   },
   {
