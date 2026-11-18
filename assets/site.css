@@ -18,7 +18,7 @@ nav{background:var(--navy);padding:0 5vw;height:68px;display:flex;align-items:ce
 .crumbs a:hover{color:#fff}
 .page-wrap{max-width:820px;margin:0 auto;padding:36px 5vw 80px}
 .lede{font-size:18px;color:var(--ink);line-height:1.65;margin-bottom:20px}
-.updated{font-size:14px;color:var(--ink-muted);margin:0 0 16px}
+.updated{font-size:14px;color:var(--ink-soft);margin:0 0 16px}
 .quick-answer{background:#fff;border:1px solid var(--border);border-left:5px solid var(--accent);border-radius:16px;padding:22px 24px;margin:0 0 20px}
 .quick-answer-label{font-size:12px;font-weight:700;letter-spacing:1px;color:#8a6a1f;text-transform:uppercase;margin-bottom:8px}
 .quick-answer p{color:var(--ink);margin-bottom:0}

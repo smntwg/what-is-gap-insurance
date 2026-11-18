@@ -165,8 +165,6 @@ ${blocks}
   </div>
   <p class="footer-disc">© 2026 what-is-gap-insurance.co.uk. This website provides general information only and does not constitute financial advice. Always compare quotes from authorised providers before purchasing any insurance product. Example figures on the guides are illustrations, not quotes.</p>
 </footer>
-<script src="/data/affiliate.js"></script>
-<script src="/assets/affiliate.js"></script>
 ${(page.scripts || []).map((src) => `<script src="${src}" defer></script>\n`).join("")}</body>
 </html>
 `;
